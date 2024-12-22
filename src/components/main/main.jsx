@@ -32,8 +32,8 @@ const Main = () => {
 				selectedCategory={selectedCategory}
 				setSelectedCategory={setSelectedCategory}
 			/>
-			<Box p={2} sx={{ height: '90vh' }}>
-				<Container maxWidth={'90%'}>
+			<Box sx={{ p: { xs: 0, sm: 2, md: 2 }, height: '90vh' }}>
+				<Container maxWidth={'90%'} sx={{ p: { xs: 0, sm: 1, md: 2 } }}>
 					<Typography variant={'h4'} fontWeight={'bold'} mb={2}>
 						{selectedCategory}{' '}
 						<span style={{ color: colors.secondary }}>videos</span>
